@@ -1,0 +1,23 @@
+/*
+    This file is used to style the Nova form.
+    You can add your own styles here.
+ */
+
+/* Add a fixed position to the Nova form buttons (in update view) in the bottom right corner */
+#nova form > div:nth-child(2) {
+    position: fixed;
+    right: 0;
+    padding: 0.5rem;
+    background: #fff;
+    border-radius: 0.5rem 0 0 0;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+    scale: 0.8;
+    bottom: -0.5rem;
+    transition: all 0.3s;
+    z-index: 1000;
+}
+
+#nova form > div:nth-child(2):hover {
+    scale: 1;
+    bottom: 0;
+}

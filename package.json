@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "csso src/css/main.css -o dist/css/main.css"
+  },
+  "dependencies": {
+    "csso-cli": "^4.0.2"
+  }
+}
