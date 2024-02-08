@@ -21,9 +21,3 @@
     scale: 1;
     bottom: 0;
 }
-
-/* TinyMCE - Overwrite selected link for better dark mode support */
-.mce-content-body [data-mce-selected=inline-boundary] {
-    background-color: #ddecfd !important;
-    color: #1983b4 !important;
-}
