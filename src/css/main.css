@@ -21,3 +21,20 @@
     scale: 1;
     bottom: 0;
 }
+
+/* TinyMCE - Fixes dark theme link active */
+.mce-content-body [data-mce-selected=inline-boundary] {
+    background-color: #bc0000 !important;
+}
+
+/* Sidebar Sticky */
+#nova > div:nth-child(2) {
+    position: relative;
+}
+#nova > div:nth-child(2) > div {
+    height: 100%;
+}
+#nova > div:nth-child(2) .sidebar-menu {
+    position: sticky;
+    top: 20px;
+}

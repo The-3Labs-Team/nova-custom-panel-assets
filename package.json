@@ -1,9 +1,11 @@
 {
   "scripts": {
     "build": "npm run compress:css",
+    "dev": "http-server src -o -c-1 -a localhost -p 8080 -s",
     "compress:css": "csso src/css/main.css -o dist/css/main.css"
   },
   "dependencies": {
-    "csso-cli": "^4.0.2"
+    "csso-cli": "^4.0.2",
+    "http-server": "^14.1.1"
   }
 }
