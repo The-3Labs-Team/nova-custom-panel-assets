@@ -1,12 +1,12 @@
-# nova-custom-panel-assets
+# Nova Custom Panel Assets
 Our assets (CSS/JS) for Laravel Nova 4 improvements
 
-# terser (https://github.com/terser/terser) for JS <- todo
-# csso for CSS
+# Parsers
+- csso for CSS
+- terser for JS // todo
 
 # How to use
 
-## Install
 In `NovaServiceProvider`:
 ```php
 public function boot()
@@ -16,5 +16,3 @@ public function boot()
 //    Nova::script('nova-custom-panel-assets', __DIR__.'/../dist/js/nova-custom-panel-assets.js');
 }
 ```
-
-Version 1: https://cdn.jsdelivr.net/gh/The-3Labs-Team/nova-custom-panel-assets@1/dist/css/main.css
