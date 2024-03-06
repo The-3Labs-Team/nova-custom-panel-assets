@@ -38,3 +38,8 @@
     position: sticky;
     top: 20px;
 }
+
+/* Select Force Height */
+#nova select.form-control {
+    height: 2.5rem;
+}
