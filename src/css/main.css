@@ -43,3 +43,8 @@
 #nova select.form-control {
     height: 2.5rem;
 }
+
+/* TOMS - Force height on topics tag field */
+div[dusk="topics-search-input-results"] {
+    max-height: 500px !important;
+}
