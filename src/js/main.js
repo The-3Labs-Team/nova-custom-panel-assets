@@ -7,7 +7,7 @@ function setDefaultSelectValue() {
 
 
 function addAspectRatioToImage() {
-    const novaImages = document.querySelectorAll("#nova button img");
+    const novaImages = document.querySelectorAll("#nova form button img");
 
     novaImages.forEach((image) => {
             const width = image.naturalWidth;
