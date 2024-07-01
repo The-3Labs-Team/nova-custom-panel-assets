@@ -13,6 +13,6 @@ public function boot()
 {
     // ...
     Nova::style('nova-custom-panel-assets', 'https://cdn.jsdelivr.net/gh/The-3Labs-Team/nova-custom-panel-assets@1/dist/css/main.css');
-//    Nova::script('nova-custom-panel-assets', __DIR__.'/../dist/js/nova-custom-panel-assets.js');
+    Nova::script('nova-custom-panel-assets', 'https://cdn.jsdelivr.net/gh/The-3Labs-Team/nova-custom-panel-assets@1/dist/js/main.js');
 }
 ```
