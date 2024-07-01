@@ -1,11 +1,15 @@
 {
   "scripts": {
-    "build": "npm run compress:css",
+    "build": "npm run compress:css && npm run compress:js",
     "dev": "http-server src -o -c-1 -a localhost -p 8080 -s",
-    "compress:css": "csso src/css/main.css -o dist/css/main.css"
+    "compress:css": "csso src/css/main.css -o dist/css/main.css",
+    "compress:js": "uglifyjs src/js/main.js -o dist/js/main.js -c -m"
   },
   "dependencies": {
     "csso-cli": "^4.0.2",
     "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.18.0"
   }
 }
