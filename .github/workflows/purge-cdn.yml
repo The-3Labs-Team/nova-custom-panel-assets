@@ -12,3 +12,4 @@ jobs:
         with:
           url: |
             https://cdn.jsdelivr.net/gh/The-3Labs-Team/nova-custom-panel-assets@1/dist/css/main.css
+            https://cdn.jsdelivr.net/gh/The-3Labs-Team/nova-custom-panel-assets@1/dist/js/main.js
