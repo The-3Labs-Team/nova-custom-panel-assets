@@ -10,8 +10,6 @@ function addAspectRatioToImage() {
     const novaImages = document.querySelectorAll("#nova form button img");
 
     novaImages.forEach((image) => {
-            const width = image.naturalWidth;
-            const height = image.naturalHeight;
 
             const aspectRatio = document.createElement("div");
             Object.assign(aspectRatio.style, {
@@ -20,8 +18,8 @@ function addAspectRatioToImage() {
                 left: "50%",
                 transform: "translate(-50%, -50%)",
                 overflow: "hidden",
-                width: `${height}px`,
-                height: `${height}px`,
+                width: '95px',
+                height: '95px',
                 border: "2px solid lime"
             });
 
