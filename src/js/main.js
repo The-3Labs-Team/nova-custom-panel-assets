@@ -36,5 +36,5 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(() => {
         console.log("DOM fully loaded and parsed");
         addAspectRatioToImage();
-    } , 100);
+    } , 300);
 })
