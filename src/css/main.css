@@ -48,3 +48,10 @@
 div[dusk="topics-search-input-results"] {
     max-height: 500px !important;
 }
+
+/* TRIX EDITOR */
+
+/*Dark mode*/
+html.o1-dark trix-editor.prose strong {
+    color: #efefef !important;
+}
